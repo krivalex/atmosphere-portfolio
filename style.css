@@ -30,6 +30,7 @@
   text-align: center;
   background-image: url("https://gamerwall.pro/uploads/posts/2022-03/1646835897_1-gamerwall-pro-p-piksel-art-fon-krasivie-oboi-1.jpg");
   background-size: cover;
+  border: 4px
 }
 
 .avatar {
@@ -69,28 +70,20 @@
 
 }
 
-#telegram {
-  color: #0088cc;
+#fa:hover {
+  color: #ffffff;
 }
 
-#telegram:hover {
-  color: #ffffff;
+#telegram {
+  color: #0088cc;
 }
 
 #instagram {
   color: #e4405f;
 }
 
-#instagram:hover {
-  color: #ffffff;
-}
-
 #github {
   color: #333333;
-}
-
-#github:hover {
-  color: #ffffff;
 }
 
 .name-container {
@@ -116,4 +109,91 @@
   font-size: 20px;
   color: white;
   box-shadow: 0 0 10px #000;
+}
+
+#skills {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://kartinkin.net/uploads/posts/2021-07/1625510716_17-kartinkin-com-p-pikselnii-fon-kosmos-krasivie-foni-17.png");
+  background-size: cover;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+
+.skill-progress {
+  width: 100%;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 10px;
+  position: relative;
+  border: 2px solid #000;
+}
+
+.skill-progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #00ff11;
+  border-radius: 10px;
+  transition: 0.5s;
+  border: 2px solid #000;
+}
+
+#contacts {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://celes.club/uploads/posts/2022-05/1653340943_1-celes-club-p-pikselnii-fon-les-krasivie-1.png");
+  background-size: cover;
+  color: white;
+  font-size: 300%;
+}
+
+footer {
+  background-color: #000;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 0 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts {
+    font-size: 50%;
+  }
 }
